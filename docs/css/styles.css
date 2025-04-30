@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2024 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
 /*!
@@ -11006,4 +11006,10 @@ header.masthead .masthead-heading {
 .custom-icon {
   width: 6em; /* Adjust the size as needed */
   height: 8em; /* Adjust the size as needed */
+}
+
+.masthead .row img.img-fluid {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
 }
