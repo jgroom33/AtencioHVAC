@@ -43,12 +43,17 @@ html(lang='en')
         // Masthead
         header.masthead
             .container
-                .masthead-heading Atencio Enterprises LLC
-                .masthead-subheading.text-uppercase Refrigeration
-                .masthead-subheading.text-uppercase and
-                .masthead-subheading.text-uppercase HVAC Services
-                a.btn.btn-primary.btn.text-uppercase(href='#res-services') Residential
-                a.btn.btn-danger.btn.text-uppercase(href='#com-services') Commercial
+                .masthead-heading.text-center.mb-4 Atencio Enterprises LLC
+                .row.align-items-center
+                    .col-md-3
+                        img.img-fluid(src='assets/img/finance.png', alt='Financing Available')
+                    .col-md-9
+                        .masthead-subheading.text-uppercase Refrigeration
+                        .masthead-subheading.text-uppercase and
+                        .masthead-subheading.text-uppercase HVAC Services
+                .text-center.mt-4
+                    a.btn.btn-primary.btn.text-uppercase(href='#res-services') Residential
+                    a.btn.btn-danger.btn.text-uppercase(href='#com-services') Commercial
 
         // Services
         section#res-services.page-section
@@ -120,7 +125,7 @@ html(lang='en')
                             img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/Hussman.svg', alt='...', aria-label='Hussmann Logo')
                     .col-md-3.col-sm-6.my-3
                         a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/True.webp', alt='...', aria-label='true Logo')
+                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/true.jpg', alt='...', aria-label='true Logo')
                     .col-md-1.col-sm-6.my-3
                     .col-md-2.col-sm-6.my-3
                         a(href='#!')
